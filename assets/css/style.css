@@ -41,6 +41,10 @@ button {
   font-size: 16px;
   cursor: pointer;
 }
+button:nth-last-of-type(1) {
+  margin: 40px 100px;
+}
+
 .wrapper {
   max-width: 500px;
   margin-top: 30px;

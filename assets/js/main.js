@@ -40,6 +40,16 @@ function bigButton(){
 
 
 
+function changeMyColor()
+{
+    let changeCo = Math.floor(Math.random() * 1843837294).toString(16);
+    document.body.style.backgroundColor = '#' + changeCo
+
+}
+
+
+
+
 
 
 
