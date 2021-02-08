@@ -1,16 +1,4 @@
-// let left = document.getElementById("left")
-// let center = document.getElementById("center")
-// let right = document.getElementById("right")
-// let test = document.getElementById("test")
 
-// function myRight() {
-//     test.classList.add("right")
-//     test.classList.remove("center")
-
-// }
-// function myCenter() {
-//     test.classList.add("center")
-//     test.classList.remove("right")
 
 let changeColor = document.getElementById("navHome")
 
@@ -50,6 +38,15 @@ function changeMyColor()
 
 
 
+let vorName = document.getElementById('vorname');
+let nachName = document.getElementById('nachname');
+let land = document.getElementById('land');
+document.getElementById("form1").addEventListener('submit', function (e){
+
+    e.preventDefault();
+    console.log('FullName:' + vorName.value + ' ' + nachName.value + ' ' + land.value);
+
+})
 
 
 
