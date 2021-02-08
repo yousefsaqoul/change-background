@@ -6,40 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>js</title>
 
-  <style>
-  ul {
-  	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
-  	overflow: hidden;
-  	background-color: #333;
-	}
-
-	li {
-  	float: left;
-	}
-
-	li a {
-  	display: block;
-  	color: white;
-  	text-align: center;
-  	padding: 14px 16px;
-  	text-decoration: none;
-	}
-
-	li a:hover:not(.active) {
-  	background-color: #111;
-	}
-
-	.active {
-  	background-color: #4CAF50;
-	}
-
-  .lila {
-    background-color: lightcoral;
-  }
-  
-</style>
+ 
   <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -51,8 +18,20 @@
     <li><a class="nav" id="navNews" href="#news">News</a></li>
     <li><a class="nav" id="navContact" href="#contact">Contact</a></li>
     <li class="nav" style="float:right"><a class="active" id="navChange" onclick="changeMe()">Change me</a></li>
-    </ul>
-  
+</ul>
+
+
+
+<button onclick="smallButton()">Small</button>
+<button onclick="middleButton()">Middle</button>
+<button onclick="bigButton()">Big & Crazy</button>
+
+<div class="wrapper">
+	<div id="element" class="small">
+		<h1>Hallo classList!</h1>
+	</div>
+</div>
+
 
 
 
